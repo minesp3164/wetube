@@ -2,7 +2,7 @@
   "name": "wetube",
   "version": "1.0.0",
   "scripts": {
-    "dev": "nodemon --exec babel-node src/server.js"
+    "dev": "nodemon --exec babel-node src/init.js"
   },
   "repository": {
     "type": "git",
@@ -16,11 +16,17 @@
   "homepage": "https://github.com/minesp3164/wetube#readme",
   "description": "The best way to watch videos",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "mongo": "^0.1.0",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.7",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.15",
     "pig": "^0.2.1",
-    "pug": "^3.0.2"
+    "pug": "^3.0.2",
+    "session": "^0.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
