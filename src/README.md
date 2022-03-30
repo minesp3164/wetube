@@ -17,3 +17,10 @@
 /videos/upload ->Upload video
 
 
+use wetube
+
+show collections
+
+db.찾은 콜렉션.find({})
+db 저장되어있는것들 보여줌
+
